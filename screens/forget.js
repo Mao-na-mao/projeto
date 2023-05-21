@@ -8,18 +8,19 @@ function TelaForget({ navigation }) {
   const [email, setEmail] = useState('');
 
   function validateEmail(email) {
-  const re = /\S+@\S+\.\S+/;
-  return re.test(email);
-}
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  }
 
-  const handleSubmit = (e) => {e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     if (!validateEmail(email)) {
       alert('Email inválido');
     } else {
       alert('Iremos enviar um link para recuperação de senha no seu e-mail.');
       (navigation.navigate("TelaInicio"));
     }
-};
+  };
 
   return (
     <View style={styles.area}>

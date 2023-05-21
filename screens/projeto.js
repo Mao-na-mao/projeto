@@ -57,7 +57,7 @@ function TelaProjeto({ navigation }) {
         </Text>
 
 
-        <TouchableOpacity style={styles.botao3} onPress={()=> (alert('SUCESSO'))}>
+        <TouchableOpacity style={styles.botao3} onPress={()=> (alert('Mais instruções foram enviadas ao seu e-mail!'))}>
               <Text style={styles.textoBotao}> Quero me Voluntariar! </Text>
         </TouchableOpacity>
 

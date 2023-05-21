@@ -1,38 +1,38 @@
-import {Text, View, Image, TouchableOpacity} from 'react-native'
+import { Text, View, Image, TouchableOpacity } from 'react-native'
 import styles from '../styles/styles'
 
 
-function TelaInicio({navigation}){
+function TelaInicio({ navigation }) {
 
-  return (  
+  return (
 
-    <View style={styles.area}> 
- 
+    <View style={styles.area}>
+
       <Image style={styles.imagem}
-        source={{uri: 'https://i.imgur.com/atd8y6u.png'}}
+        source={{ uri: 'https://i.imgur.com/atd8y6u.png' }}
       />
- 
 
-      <TouchableOpacity style={styles.botao} onPress={()=> (navigation.navigate("TelaLogin1"))}>
+
+      <TouchableOpacity style={styles.botao} onPress={() => (navigation.navigate("TelaLogin1"))}>
         <Text style={styles.textoBotao}> Login - ONGs </Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.botao} onPress={()=> (navigation.navigate("TelaLogin2"))}>
+      <TouchableOpacity style={styles.botao} onPress={() => (navigation.navigate("TelaLogin2"))}>
         <Text style={styles.textoBotao}> Login - Voluntários </Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.botao} onPress={()=> (navigation.navigate("TelaSignin"))}>
+      <TouchableOpacity style={styles.botao} onPress={() => (navigation.navigate("TelaSignin"))}>
         <Text style={styles.textoBotao}> É novo? Cadastre-se!  </Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.botaoAbout} onPress={()=> (navigation.navigate("TelaAbout"))}>
+      <TouchableOpacity style={styles.botaoAbout} onPress={() => (navigation.navigate("TelaAbout"))}>
         <Text style={styles.textoBotaoAbout}> Saiba Mais </Text>
       </TouchableOpacity>
 
     </View>
 
   );
-  
+
 }
 
 export default TelaInicio;
