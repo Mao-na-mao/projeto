@@ -7,9 +7,9 @@ function TelaLista1({ navigation }) {
   const [pesquisa, setPesquisa] = useState('');
 
   const ongData = [
-    { nome: 'Teste', descricao: 'Descrição TESTE' },
-    { nome: 'ONG 2', descricao: 'Descrição da ONG 2' },
-    { nome: 'ONG 3', descricao: 'Descrição da ONG 3' },
+    { nome: 'Projeto Solidarize', descricao: 'Em andamento' },
+    { nome: 'Projeto Psicólogos para Todos', descricao: 'Concluído' },
+    { nome: 'Projeto C.R.I.A.', descricao: 'Concluído' },
   ];
 
   const projetoData = [
