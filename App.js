@@ -17,51 +17,51 @@ const Stack = createNativeStackNavigator();
 
 export default function App(){
 
-  return (
+    return (
 
-     <NavigationContainer>
+        <NavigationContainer>
 
-      <Stack.Navigator>
-        <Stack.Screen  name="TelaInicio" component={TelaInicio}  options={{
-    headerShown: null}}
-      />
-        <Stack.Screen name="TelaLista1"   component={TelaLista1}   options={{
-    headerShown: null}} 
-        />
-        <Stack.Screen name="TelaLogin1"  component={TelaLogin1}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen  name="TelaLista2" component={TelaLista2}  options={{
-    headerShown: null}}
-        />
-        <Stack.Screen name="TelaLogin2"  component={TelaLogin2}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaRequest"  component={TelaRequest}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaForget"  component={TelaForget}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaAbout"  component={TelaAbout}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaSignin"  component={TelaSignin}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaSignin1"  component={TelaSignin1}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaSignin2"  component={TelaSignin2}  options={{
-    headerShown: null}}  
-        />
-        <Stack.Screen name="TelaProjeto"  component={TelaProjeto}  options={{
-    headerShown: null}}  
-        />
-      </Stack.Navigator>
+            <Stack.Navigator>
+                <Stack.Screen  name="TelaInicio" component={TelaInicio}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaLista1"   component={TelaLista1}   options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaLogin1"  component={TelaLogin1}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen  name="TelaLista2" component={TelaLista2}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaLogin2"  component={TelaLogin2}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaRequest"  component={TelaRequest}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaForget"  component={TelaForget}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaAbout"  component={TelaAbout}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaSignin"  component={TelaSignin}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaSignin1"  component={TelaSignin1}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaSignin2"  component={TelaSignin2}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+                <Stack.Screen name="TelaProjeto"  component={TelaProjeto}  options={{
+                    headerShown: false, title: '', headerTransparent: true}}
+                />
+            </Stack.Navigator>
 
-    </NavigationContainer>
+        </NavigationContainer>
 
-  );
+    );
 
 }

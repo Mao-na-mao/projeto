@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gloower.snack1a500c09b78f4d1a8295e1ad7bd47133"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gloower.snack1a500c09b78f4d1a8295e1ad7bd47133"
     },
     "web": {
       "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d666d1bc-4018-42a9-9239-2a2573204052"
+      }
     }
   }
 }
